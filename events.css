@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.eve{
+    width: 100%;
+    height: 100%;
+    padding-top: 0vh;
+    background-image: linear-gradient(#000000c3,#000000c3),url("https://www.andhrauniversity.edu.in/img/slider/1.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.eve ul{
+    font-size: larger;
+}
+.eve .row{
+    display: flex;
+    justify-content: space-between;
+}
+.eve .colomn{
+    width: 32%;
+    height: auto;
+    position: relative;
+}
+.eve img{
+  width: 100%;
+  height: auto;
+}

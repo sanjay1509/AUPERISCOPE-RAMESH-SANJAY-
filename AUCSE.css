@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+    transition: 0.6s;
+}
+body,html{
+    height: 100%;
+    margin:0;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.menu{
+    width: 100%;
+    padding: 5px 10vw;
+    position: fixed;
+    background: rgb(14, 14, 16,0.9);
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu ul li:first-child{
+    flex:1;
+}
+.menu ul h1{
+    font-family: serif;
+    color:#fff
+}
+.menu ul a{
+    margin-left: 20px;
+    font-size: 16px;
+}
+.menu ul a:hover{
+    color:#f80;
+}
+.container{
+    width: 100%;
+    height: 80vh;
+    padding-top: 20vh;
+    background-image: linear-gradient(#000000c3,#000000c3),url("https://www.andhrauniversity.edu.in/img/slider/1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+}
+.container h1{
+    font-family: serif;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: xxx-large;
+}
+.container p{
+    margin-bottom: 30px;
+    letter-spacing: 0.5px;
+    font-size: larger;
+    color:white;
+}
+.content{
+    width: 80%;
+    margin: auto;
+}
+.content h2{
+    text-align: center;
+    color:#f80;
+    margin: 20px;
+}
+.content h2::before, .content h2::after{
+    content:"------";
+    letter-spacing:5px;
+    margin: 0 10px;
+}
+.content .row{
+    display: flex;
+    justify-content: space-between;
+}
+.content .colomn{
+    width: 32%;
+    height: auto;
+    position: relative;
+}
+.content img{
+  width: 100%;
+  height: auto;
+}
+.content .colomn a:last-child{
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top:100%;
+    left: 0;
+    bottom: 0;
+    background: #f0f8ffc3;
+    text-align: center;
+    line-height: 15vw;
+    font-size: 3vw;
+    color:black;
+
+}
+.content .colomn:hover a:last-child{
+    height: 100%;
+    top: 0;
+}
